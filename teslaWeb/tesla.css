@@ -1,0 +1,13 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.header {
+    width: 1920px;
+    height: 956px;
+}
+.logoT {
+    width: 152px;
+    height: 28px;
+}

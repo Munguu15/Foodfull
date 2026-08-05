@@ -1,0 +1,387 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", serif;
+  box-sizing: border-box;
+}
+
+.headerCenter {
+  width: 100%;
+  height: 44px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  z-index: 10;
+  position: fixed;
+  inset-inline: 0;
+  background-color: #f5f5f7;
+}
+.heroc {
+  width: 1920px;
+  height: 692px;
+  background-image: url(/images/Background.png);
+}
+.appleLogo {
+  width: 30px;
+  box-sizing: border-box;
+  font-style: italic;
+  font-weight: 100 900;
+  unicode-range:
+    U + 0460 -052F,
+    U + 1C80 -1C8A,
+    U + 20B4,
+    U + 2DE0 -2DFF,
+    U + A640-A69F,
+    U + FE2E-FE2F;
+}
+.header_Link {
+  font-size: 12px;
+  font-weight: 400;
+  white-space: nowrap;
+  text-decoration: none;
+  color: black;
+}
+.searchIcon {
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url();
+}
+.cartIcon {
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url();
+}
+.donation_Banner {
+  font-size: 14px;
+  margin-top: 44px;
+  color: #1d1d1f;
+  font-weight: 10000px;
+  padding: 16px 31px;
+  text-align: center;
+}
+.hero_container {
+  width: 100vw;
+  height: 692px;
+  text-align: center;
+  margin-bottom: 12px;
+  flex-direction: column;
+  background-size: cover;
+  padding-block: 55px 36px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero_container--iphone-16-pro {
+  background-image: url(/images/Figure.png);
+}
+.hero-title {
+  font-size: 52px;
+  color: #f5f5f7;
+  font-weight: 600px;
+}
+.hero-subhead {
+  font-size: 24px;
+  color: #f5f5f7;
+  font-weight: 400px;
+  margin-block: 16px 20px;
+  font-style: "Inter";
+}
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+}
+.button {
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3;
+  gap: 10px;
+}
+.button--primary {
+  color: #fff;
+  background-color: #0071e3;
+  font-size: 16px;
+}
+.button--secondary {
+  color: #2997ff;
+  border: solid #2997ff 1px;
+  background-color: transparent;
+}
+.hero_container--iphone-16-pro1 {
+  background-image: url(/images/Background.png);
+}
+.hero_container-giftmagic {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url(/images/Gift.png);
+}
+.heroDark {
+  color: #000;
+}
+.product-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/iPad.png);
+}
+.product {
+  width: 942px;
+  height: 580px;
+  color: #c7e6f1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.productTitle {
+  font-size: 18px;
+  color: #1d1d1f;
+}
+.productSubhead {
+  font-size: 18px;
+  color: #009057;
+}
+.iPad {
+  width: 430px;
+  height: 44px;
+}
+#sixPicture {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box {
+  width: 942px;
+  height: 580px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.productTitl {
+  font-size: 36px;
+  color: #f5f5f7;
+  margin-bottom: 7px;
+}
+.productSubhea {
+  font-size: 18px;
+  color: #f5f5f7;
+  margin-bottom: 10px;
+}
+.bottom {
+  display: flex;
+  justify-content: flex-end !important;
+  align-items: center;
+  padding-bottom: 1% !important;
+}
+.window {
+  width: 942px;
+  height: 580px;
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+}
+.window-background {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-image: var(--background-image);
+}
+.logo {
+  width: 26.35px;
+  height: 32px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.series {
+  width: 152px;
+  height: 18px;
+}
+.header-with-logo {
+  display: flex;
+}
+.logoTitle {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 7px;
+}
+.series {
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 9px;
+}
+.thins {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.macHead {
+  font-size: 36px;
+  font-weight: 600;
+  color: #1d1d1f;
+  margin-bottom: 7px;
+}
+.macSub {
+  font-size: 18px;
+  font-weight: 400;
+  color: #1d1d1f;
+  margin-bottom: 10px;
+}
+.trade {
+  width: 322px;
+  height: 93px;
+  color: #000;
+  margin-bottom: 100px;
+}
+.buttons {
+  cursor: pointer;
+  padding: 12px 20px;
+  border-radius: 999px;
+  text-decoration: none;
+  border: solid #0071e3;
+  color: #fff;
+  background-color: #0071e3;
+  font-size: 16px;
+  margin-top: 15px;
+}
+.cardSub {
+  width: 322px;
+  height: 93px;
+  color: #000;
+}
+.cardButton {
+  margin-top: 20px;
+}
+
+#carSection {
+  width: 1920px;
+  overflow-x: scroll;
+  margin: auto;
+  display: flex;
+  column-gap: 15px;
+  margin-top: 15px;
+}
+.carSectionCard {
+  width: 1250px;
+  height: 668px;
+  background-image: url(./images/napoleon.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-shrink: 0;
+}
+.slider-itenm-info {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+}
+.info-button {
+  border: none;
+  cursor: pointer;
+  font-size: 17px;
+  padding: 11px 21px;
+  margin-right: 14px;
+  border-radius: 999px;
+  background-color: #f5f5f7;
+  margin-top: 550px;
+  margin-left: 40px;
+}
+.genre {
+  color: white;
+  font-size: 20px;
+}
+.description {
+  color: white;
+  font-size: 20px;
+}
+.descript {
+  color: white;
+  font-size: 20px;
+}
+.infoButt {
+  border: none;
+  display: flex;
+  font-size: 14px;
+  justify-content: end;
+  background-color: #f5f5f7;
+
+  border: 1px solid white;
+  margin-left: 40px;
+  position: relative;
+  background-size: cover;
+}
+.bullets {
+  display: flex;
+  margin-top: 14px;
+  justify-content: center;
+  border: 1 px solid red;
+}
+.bullet {
+  width: 8px;
+  height: 8px;
+  opacity: 0.75;
+  background-color: rgba(0, 0, 0, 0.42);
+  margin-inline: 7px;
+  border-radius: 50%;
+}
+#footerSection {
+  width: 1920px;
+  height: 292px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 14px;
+}
+.slideSectionCard {
+  width: 417px;
+  height: 236px;
+  background-image: url(./images/1.jpg);
+  margin-top: 14px;
+  background-position: center;
+  background-size: cover;
+}
+.slideSectionCard2 {
+  width: 417px;
+  height: 236px;
+  background-image: url(./images/1.jpg);
+  margin-top: 14px;
+}
+.twoText {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 190px;
+  color: white;
+}
+.fitness {
+  width: 77.92px;
+  height: 13.82px;
+  background-color: #000;
+}
+.slideText1 {
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 130px;
+}
+.slideText5 {
+  background-color: red;
+}
+
+@media (max-width: 768px) {
+  .headerCenter {
+  }
+}

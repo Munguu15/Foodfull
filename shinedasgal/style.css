@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(8, 8, 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+    border-radius: 352px;
+    
+}
+.display {
+    width: 350px;
+    height: 200px;
+    border: 1px solid #fefefe ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    background-color: rgb(8, 8, 10);
+    border-radius: 10px;
+    gap: 10px;
+}
+#text {
+    display: flex;
+    margin-right: 150px;
+   font-size: 20px;
+}
+.start-btn {
+
+}
+.time-display {
+    font-size: 50px;
+}
+
+/* body {
+    background-color: #fcf6f5;
+    color: #333;
+    padding: 20px;
+}
+.candy {
+    width: 30px;
+    height: 50px;
+    background-color: #fcf6f5;
+} */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+/* 
+body {
+    background-color: #fcf6f5;
+    color: #333;
+    padding: 20px;
+}
+.textContainer {
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1 solid red;
+} */
+
+/* .container {
+    width: 100px;
+    height: 50px;
+    border: 1px solid red;
+    background-color: #fcf6f5;
+}
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid red;
+    align-items: center;
+}
+.caption {
+    width: 100px;
+    height: 30px;
+    background-color: red;
+}
+
+#animal{
+    width: 500px;
+    text-align: center;
+} */
+
+/* .card {
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #d63447;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+
+.dessert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.dessert-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    transition: transform 0.2s;
+}
+
+.dessert-card:hover {
+    transform: translateY(-5px);
+}
+
+.img-placeholder {
+    font-size: 50px;
+    background: #ffeef0;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.price {
+    color: #d63447;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.add-btn {
+    background-color: #f57b51;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-color: #d63447;
+}
+
+/* Сагсны хэсгийн загвар */
+/* .cart-section {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    height: fit-content;
+}
+
+.cart-section h2 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ffeef0;
+    padding-bottom: 10px;
+}
+
+#cart-items {
+    list-style: none;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+#cart-items li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font-size: 0.95rem;
+    border-bottom: 1px dashed #eee;
+}
+
+.empty-msg {
+    color: #999;
+    font-style: italic;
+    justify-content: center !important;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 15px 0;
+}
+
+.order-btn {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.order-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Дэлгэц жижигсэх үед */
+/* @media (max-width: 768px) {
+    .main-content {
+        grid-template-columns: 1fr;
+    }
+/* } 
+
+body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: sans-serif;
+        }
+
+        
