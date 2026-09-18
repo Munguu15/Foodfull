@@ -8,6 +8,12 @@
     "start": "next start",
     "lint": "eslint"
   },
+  "allowScripts": {
+    "@prisma/client": true,
+    "@prisma/engines": true,
+    "prisma": true,
+    "unrs-resolver": true
+  },
   "dependencies": {
     "@clerk/nextjs": "^7.9.4",
     "@prisma/client": "^6.19.3",
